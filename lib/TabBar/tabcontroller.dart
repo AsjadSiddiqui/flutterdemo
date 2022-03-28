@@ -10,7 +10,7 @@ class TabController extends StatefulWidget {
 
 class _TabControllerState extends State<TabController> {
   var _currentTab = TabItem.home;
-  static final _navigatorKeys = {
+  final Map<TabItem, GlobalKey<NavigatorState>> _navigatorKeys = {
     TabItem.home: GlobalKey<NavigatorState>(),
     TabItem.excercise: GlobalKey<NavigatorState>(),
     TabItem.profile: GlobalKey<NavigatorState>(),
