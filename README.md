@@ -3,7 +3,7 @@
 # Problem
 I created an app that is backed by firebase. Authentication as you will see is handled by firebase.
 After successfull authentication I want to show the business logic of my app to the users.
-For this I want to change the screen but somehow I receive and duplicate keys error right after login in.
+For this I want to change the screen but somehow I receive an duplicate keys error right after login in.
 What is the best practice for switching between authentication screens and business logic?
 
 
@@ -27,3 +27,8 @@ The specific parent that did not update after having one or more children forcib
 A GlobalKey can only be specified on one widget at a time in the widget tree.
 When the exception was thrown, this was the stack
 
+  
+# Solution
+  My problem is solved if I can
+  - Login and show busines logic with the best practice. Changing the navigator and showing the business logic without internal errors
+  - Logout of the app without glitches and errors
