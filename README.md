@@ -32,3 +32,5 @@ When the exception was thrown, this was the stack
   My problem is solved if I can
   - Login and show busines logic with the best practice. Changing the navigator and showing the business logic without internal errors
   - Logout of the app without glitches and errors
+  - There is no glitch when using input fields
+  
